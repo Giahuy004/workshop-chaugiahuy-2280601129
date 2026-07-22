@@ -6,6 +6,8 @@ chapter: false
 ---
 
 
+# INTERNSHIP REPORT
+
 ### Student Information:
 &emsp; **Full Name:** Châu Gia Huy
 
@@ -13,7 +15,7 @@ chapter: false
 
 &emsp; **Email:** huyxchau@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology 
+&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
 &emsp; **Major:** Information Technology
 

@@ -13,7 +13,7 @@ chapter: false
 
 &emsp; **Email:** huyxchau@gmail.com
 
-&emsp; **Trường:** Đại học Công nghệ TPHCM
+&emsp; **Trường:** Đại học Công nghệ TPHCM (HUTECH)
 
 &emsp; **Ngành:** Công nghệ thông tin
 
