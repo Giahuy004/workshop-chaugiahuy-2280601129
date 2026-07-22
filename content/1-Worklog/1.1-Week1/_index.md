@@ -13,7 +13,7 @@ pre: " <b> 1.1. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Review rules and regulations in email and follow them <br> - Find teammates to carry out the project <br> - Join the WhatsApp group | 20/04/2026 | 20/04/2026 | |
+| 2 | - Review rules and regulations in email and follow them <br> - Find teammates to carry out the project <br> - Join the WhatsApp group | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 3 | - Watch overview video on Cloud Computing and AWS Global Infrastructure <br> - Create an account on AWS | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 4 | - In-depth research on AWS IAM <br> - Practice creating Users, Groups, and assigning Policies. Set up Multi-Factor Authentication | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 5 | - Install and configure AWS CLI on the local machine. Practice access authentication via Access Key and Secret Key. | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |

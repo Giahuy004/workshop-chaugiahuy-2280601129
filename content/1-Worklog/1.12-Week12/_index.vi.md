@@ -12,12 +12,12 @@ pre: " <b> 1.12 </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Tiến hành chạy kiểm thử tích hợp toàn bộ hệ thống từ Frontend (React/Cognito) -> API Gateway -> Lambda/SQS/Step Functions -> EC2 AI Sandbox -> DynamoDB. | 06/07/2026 | 06/07/2026 | |
-| 3 | Thực hiện kiểm tra an ninh nâng cao, đọc lại log Audit từ CloudTrail và các cảnh báo từ GuardDuty để rà soát lỗ hổng. | 07/07/2026 | 07/07/2026 | |
-| 4 | Cập nhật dữ liệu, biểu đồ vận hành và mã nguồn dự án lên trang tin tức hiển thị chạy bằng Hugo trên AWS Amplify để nghiệm thu công việc. | 08/07/2026 | 08/07/2026 | |
-| 5 | Tiến hành buổi họp nghiệm thu nội bộ nhóm. Phân tích hóa đơn sử dụng dịch vụ AWS thực tế so với bảng tính toán chi phí ước tính ban đầu. | 09/07/2026 | 09/07/2026 | |
-| 6 | Đóng gói mã nguồn dự án, xuất bản các file cấu hình kiến trúc mạng (VPC), IAM Policy, Lambda code và tài liệu hướng dẫn vận hành. | 10/07/2026 | 10/07/2026 | |
-| 7 | Thực hiện xóa bỏ (Terminate) hoặc đóng băng an toàn các tài nguyên có phí cao như EC2, WAF, VPC Endpoints để tránh phát sinh chi phí ẩn sau khi kết thúc kỳ thực tập. Hoàn thiện slide báo cáo dự án nhóm gửi cho Mentor AWS. | 11/07/2026 | 11/07/2026 | |
+| 2 | Tiến hành chạy kiểm thử tích hợp toàn bộ hệ thống từ Frontend (React/Cognito) -> API Gateway -> Lambda/SQS/Step Functions -> EC2 AI Sandbox -> DynamoDB. | 06/07/2026 | 06/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | Thực hiện kiểm tra an ninh nâng cao, đọc lại log Audit từ CloudTrail và các cảnh báo từ GuardDuty để rà soát lỗ hổng. | 07/07/2026 | 07/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | Cập nhật dữ liệu, biểu đồ vận hành và mã nguồn dự án lên trang tin tức hiển thị chạy bằng Hugo trên AWS Amplify để nghiệm thu công việc. | 08/07/2026 | 08/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | Tiến hành buổi họp nghiệm thu nội bộ nhóm. Phân tích hóa đơn sử dụng dịch vụ AWS thực tế so với bảng tính toán chi phí ước tính ban đầu. | 09/07/2026 | 09/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | Đóng gói mã nguồn dự án, xuất bản các file cấu hình kiến trúc mạng (VPC), IAM Policy, Lambda code và tài liệu hướng dẫn vận hành. | 10/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | Thực hiện xóa bỏ (Terminate) hoặc đóng băng an toàn các tài nguyên có phí cao như EC2, WAF, VPC Endpoints để tránh phát sinh chi phí ẩn sau khi kết thúc kỳ thực tập. Hoàn thiện slide báo cáo dự án nhóm gửi cho Mentor AWS. | 11/07/2026 | 11/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 12:
 * Toàn bộ luồng nghiệp vụ của dự án nhóm chạy liên thông không có lỗi lớn xảy ra.

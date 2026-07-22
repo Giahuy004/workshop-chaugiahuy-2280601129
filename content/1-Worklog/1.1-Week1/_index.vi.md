@@ -13,7 +13,7 @@ pre: " <b> 1.1. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | - Xem các nội quy trong mail và thực hiện theo các nội quy <br> - Tìm kiếm đồng đội thực hiện project <br> - Tham gia group trên WhatsApp | 20/04/2026 | 20/04/2026 | |
+| 2 | - Xem các nội quy trong mail và thực hiện theo các nội quy <br> - Tìm kiếm đồng đội thực hiện project <br> - Tham gia group trên WhatsApp | 20/04/2026 | 20/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 3 | - Xem video tổng quan về Điện toán đám mây và Hạ tầng toàn cầu của AWS <br> - Tạo tài khoản trên AWS | 21/04/2026 | 21/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 4 | - Nghiên cứu sâu về AWS IAM <br> - Thực hành tạo Users, Groups, và gán Policies. Thiết lập Multi-Factor Authentication | 22/04/2026 | 22/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | 5 | - Cài đặt và cấu hình AWS CLI trên máy local. Thực hành xác thực quyền truy cập thông qua Access Key và Secret Key. | 23/04/2026 | 23/04/2026 | <https://cloudjourney.awsstudygroup.com/> |

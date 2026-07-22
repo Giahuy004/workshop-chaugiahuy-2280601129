@@ -12,12 +12,12 @@ pre: " <b> 1.9. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | Khởi tạo Amazon API Gateway. Thiết kế cấu trúc các cổng API điều hướng bao gồm đầu `/upload` và `/get-result`. | 15/06/2026 | 15/06/2026 | |
-| 3 | Viết mã nguồn Python cho AWS Lambda để xử lý logic chính khi có yêu cầu gọi từ ứng dụng Web Frontend thông qua API Gateway. | 16/06/2026 | 16/06/2026 | |
-| 4 | Cấu hình Amazon SQS (Simple Queue Service) để làm hàng đợi. Thiết lập logic xử lý: Nếu có 100 người upload file cùng lúc, hệ thống sẽ tự động xếp hàng chúng lại để tránh "ngập" dữ liệu phân tích. | 17/06/2026 | 17/06/2026 | |
-| 5 | Thiết lập AWS Step Functions để quản lý hàng đợi phức tạp và điều phối luồng trạng thái xử lý dữ liệu từ Lambda qua SQS. | 18/06/2026 | 18/06/2026 | |
-| 6 | Viết code Python cho Lambda nhằm kích hoạt tính năng tự động thông báo khi có file mới vừa rơi vào S3 bucket hệ thống. | 19/06/2026 | 19/06/2026 | |
-| 7 | Test tích hợp chuỗi liên kết: API Gateway -> Lambda -> SQS & Step Functions. Tắt các hàm kiểm thử để tiết kiệm tài nguyên hệ thống. | 20/06/2026 | 20/06/2026 | |
+| 2 | Khởi tạo Amazon API Gateway. Thiết kế cấu trúc các cổng API điều hướng bao gồm đầu `/upload` và `/get-result`. | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | Viết mã nguồn Python cho AWS Lambda để xử lý logic chính khi có yêu cầu gọi từ ứng dụng Web Frontend thông qua API Gateway. | 16/06/2026 | 16/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | Cấu hình Amazon SQS (Simple Queue Service) để làm hàng đợi. Thiết lập logic xử lý: Nếu có 100 người upload file cùng lúc, hệ thống sẽ tự động xếp hàng chúng lại để tránh "ngập" dữ liệu phân tích. | 17/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | Thiết lập AWS Step Functions để quản lý hàng đợi phức tạp và điều phối luồng trạng thái xử lý dữ liệu từ Lambda qua SQS. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | Viết code Python cho Lambda nhằm kích hoạt tính năng tự động thông báo khi có file mới vừa rơi vào S3 bucket hệ thống. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | Test tích hợp chuỗi liên kết: API Gateway -> Lambda -> SQS & Step Functions. Tắt các hàm kiểm thử để tiết kiệm tài nguyên hệ thống. | 20/06/2026 | 20/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 9:
 * Định nghĩa xong các endpoint của API Gateway trên môi trường staging.
