@@ -124,7 +124,7 @@ Vào EventBridge → Create rule:
 
 1. Vào S3 bucket bất kỳ → Permissions → tắt Block Public Access
 2. Đợi khoảng 30-60 giây (thời gian Config đánh giá)
-3. Kiểm tra lại → Block Public Access đã tự động được bật lại ✅
+3. Kiểm tra lại → Block Public Access đã tự động được bật lại
 4. Vào CloudWatch Logs của Lambda → thấy log `"Successfully blocked public access"`
 
 ## So sánh: Thủ công vs Tự động

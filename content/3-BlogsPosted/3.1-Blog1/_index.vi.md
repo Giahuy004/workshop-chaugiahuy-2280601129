@@ -22,13 +22,13 @@ Nói đơn giản, VPC Endpoint giống như một **đường hầm riêng** n�
 
 Có **2 loại** VPC Endpoint:
 
-### 1. Gateway Endpoint (Miễn phí 💰)
+### 1. Gateway Endpoint
 - Chỉ hỗ trợ **S3** và **DynamoDB**
 - Hoạt động bằng cách thêm một route entry vào Route Table của subnet
 - **Không tốn phí** — đây là điểm cực kỳ quan trọng khi tối ưu ngân sách
 - Cấu hình đơn giản: chỉ cần tạo endpoint, chọn route table, xong
 
-### 2. Interface Endpoint (Tốn phí theo giờ + data)
+### 2. Interface Endpoint
 - Hỗ trợ **hầu hết các dịch vụ AWS còn lại** (CloudWatch Logs, SQS, EC2 API, SSM, KMS...)
 - Hoạt động bằng cách tạo một **Elastic Network Interface (ENI)** trong subnet của bạn với private IP
 - Phí khoảng **~$0.01/giờ/AZ** + phí data transfer

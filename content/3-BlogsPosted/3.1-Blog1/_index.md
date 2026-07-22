@@ -22,13 +22,13 @@ In simple terms, a VPC Endpoint is like a **private tunnel** that connects direc
 
 There are **2 types** of VPC Endpoints:
 
-### 1. Gateway Endpoint (Free 💰)
+### 1. Gateway Endpoint
 - Supports **S3** and **DynamoDB** only
 - Works by adding a route entry to your subnet's Route Table
 - **Zero cost** — this is crucial for budget optimization
 - Simple setup: create the endpoint, select route tables, done
 
-### 2. Interface Endpoint (Charged per hour + data)
+### 2. Interface Endpoint
 - Supports **most other AWS services** (CloudWatch Logs, SQS, EC2 API, SSM, KMS...)
 - Works by creating an **Elastic Network Interface (ENI)** in your subnet with a private IP
 - Costs approximately **~$0.01/hour/AZ** + data transfer fees

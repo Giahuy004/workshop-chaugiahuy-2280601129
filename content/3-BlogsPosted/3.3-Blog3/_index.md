@@ -125,7 +125,7 @@ Go to EventBridge → Create rule:
 
 1. Go to any S3 bucket → Permissions → disable Block Public Access
 2. Wait about 30-60 seconds (time for Config to evaluate)
-3. Check again → Block Public Access has been automatically re-enabled ✅
+3. Check again → Block Public Access has been automatically re-enabled
 4. Check CloudWatch Logs for the Lambda → you'll see `"Successfully blocked public access"`
 
 ## Comparison: Manual vs Automated
