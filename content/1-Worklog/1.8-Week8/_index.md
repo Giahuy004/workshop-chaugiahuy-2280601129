@@ -5,53 +5,24 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Configure user authentication via Amazon Cognito and set up client-side and server-side storage integration with Amazon S3.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | Initialize and configure Amazon Cognito User Pool to support system registration and login features. | 08/06/2026 | 08/06/2026 | |
+| 3 | Develop the Web Frontend interface integrated with Cognito authentication flow, handling secure storage of token sessions and cookies. | 09/06/2026 | 09/06/2026 | |
+| 4 | Build client-side Amazon S3 storage to receive files directly and configure CORS. | 10/06/2026 | 10/06/2026 | |
+| 5 | Set up server-side Amazon S3 storage; configure S3 Lifecycle Policies to automate data classification and clean-up processes. | 11/06/2026 | 11/06/2026 | |
+| 6 | Write logic for Frontend to call API to retrieve Presigned URL, optimizing secure direct file uploads to S3. | 12/06/2026 | 12/06/2026 | |
+| 7 | Inspect security of public S3 links. Optimize file storage costs on S3. Meet as a team to review Web - Storage integration progress. | 13/06/2026 | 13/06/2026 | |
 
 ### Week 8 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully created and configured Amazon Cognito User Pool to handle registration and authentication.
+* Securely stored and managed token sessions and cookies on the Web Frontend.
+* Configured CORS successfully for S3 Client and verified direct file ingestion.
+* Activated S3 Lifecycle Policies on the server side to automate data classification.
+* Frontend successfully retrieved Presigned URL and uploaded files to the S3 bucket securely.
+* Storage system runs stably.

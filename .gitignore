@@ -1,1 +1,4 @@
 public/*
+.hugo_bin/
+.hugo_build.lock
+

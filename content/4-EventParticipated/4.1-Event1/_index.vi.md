@@ -10,116 +10,90 @@ pre: " <b> 4.1. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch "Buổi Chia sẻ Công nghệ & Kỹ năng mềm"
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Thúc đẩy việc trao đổi kiến thức và chia sẻ công nghệ giữa các thực tập sinh và thành viên trong đội ngũ.
+- Thảo luận các trải nghiệm thực tế từ các cuộc thi hackathon kỹ thuật và quy trình làm việc của lập trình viên.
+- Nhấn mạnh các thực hành tốt nhất (best practices) trong DevOps và vận hành ứng dụng/cơ sở dữ liệu.
+- Cung cấp các chiến lược thực tế để cải thiện kỹ năng mềm, bao gồm xây dựng sự tự tin và vượt qua sự trì hoãn.
+- Giới thiệu phương pháp học tập qua trò chơi (gamified learning) và các công cụ mã nguồn mở để nâng cao năng lực điện toán đám mây.
 
-### Danh Sách Diễn Giả
+### Nội Dung Chương Trình & Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Chủ đề 1: Hackathon: HA! Một Tấn Niềm Vui, Sửa Lỗi, Đau Lưng và Thiếu Ngủ**
+  - *Diễn giả:* Nhóm The Ballers (Huỳnh An Khương, Mai Quốc Anh, Nguyễn Trần Minh Quân)
+- **Chủ đề 2: Tảng Băng Chìm Của Dự Án: DevOps Trước Khi Thảm Họa Xảy Ra**
+  - *Diễn giả:* Trần Minh Quân
+- **Chủ đề 3: Tại Sao Chúng Ta Luôn Cần Sự Tự Tin: Yếu Tố "Phải Có" Cho Sự Nghiệp & Cuộc Sống Sinh Viên**
+  - *Diễn giả:* Nguyễn Thị Quỳnh Như
+- **Chủ đề 4: Tảng Băng Trôi Của Sự Trì Hoãn: Khi "Sự Lười Biếng" Chỉ Là Phần Nổi Của Nỗi Sợ**
+  - *Diễn giả:* Phạm Khắc Uy
+- **Chủ đề 5: Nâng Cao Kỹ Năng AWS Với Cloud Quest Và Floci**
+  - *Diễn giả:* Huỳnh Thái Linh
+
+---
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### 1. Trải nghiệm Hackathon - "HA! Một Tấn Niềm Vui..."
+Nhóm The Ballers đã chia sẻ trải nghiệm thực tế của họ khi tham gia một cuộc thi hackathon với cường độ cực cao. Các nội dung bao gồm:
+- **Hackathon là gì:** Một sự kiện diễn ra với tốc độ nhanh, nơi các lập trình viên, nhà thiết kế và chuyên gia lĩnh vực hợp tác chặt chẽ để xây dựng một sản phẩm mẫu chạy được (working prototype) trong thời gian ngắn.
+- **Lý do nên tham gia:** Tăng tốc quá trình tiếp thu kỹ năng mới, mở rộng mạng lưới kết nối (networking) và thúc đẩy khả năng giải quyết vấn đề nhanh chóng.
+- **Bài học thực tế:** Nhóm đã chia sẻ những khía cạnh chân thực của một kỳ hackathon (sửa lỗi liên tục, thiếu ngủ, sự phối hợp nhóm) và giới thiệu sơ lược về sự kiện *Agentic AI Build Week* sắp tới (từ 8/7 đến 12/7/2026), khuyến khích mọi người cùng tham gia.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### 2. DevOps Trước Khi Thảm Họa Xảy Ra: Tảng Băng Chìm Của Dự Án
+Diễn giả Trần Minh Quân đã phân tích quá trình phát triển phần mềm thông qua "Mô hình Tảng băng trôi", chỉ ra rằng những thất bại có thể nhìn thấy chỉ là phần nổi:
+- **Triệu chứng bề nổi (Phần nổi):** Các lỗi phần mềm xuất hiện liên tục, trễ hạn bàn giao dự án, các thành viên bị kiệt sức (burnout) và khách hàng phàn nàn.
+- **Nguyên nhân cốt lõi (Phần chìm):** Thiếu hệ thống kiểm thử tự động, giao tiếp nội bộ kém, quy trình triển khai thủ công và bỏ qua các thực hành DevOps.
+- **Giải pháp từ DevOps:** Tích hợp các đường ống CI/CD tự động, thiết lập quy trình làm việc cộng tác và giám sát hệ thống từ sớm nhằm giúp dự án tránh được các thất bại dài hạn và giảm thiểu chi phí bảo trì.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### 3. Tại Sao Chúng Ta Luôn Cần Sự Tự Tin
+Diễn giả Nguyễn Thị Quỳnh Như mang đến bài chia sẻ về tâm lý học của sự tự tin và tầm ảnh hưởng của nó đến sự phát triển sự nghiệp cũng như đời sống sinh viên:
+- **Hệ quả của sự thiếu tự tin:** Hội chứng kẻ giả mạo (imposter syndrome), nghi ngờ năng lực bản thân, sợ đối mặt thách thức và bỏ lỡ các cơ hội nghề nghiệp quan trọng.
+- **Cơ sở tâm lý:** Phân tích các nguyên nhân gốc rễ dẫn đến sự thiếu tự tin.
+- **Chiến lược thực tế:** Các mẹo hành động hàng ngày để xây dựng sự tự tin, như luyện tập thuyết trình trước đám đông, tái cấu trúc các suy nghĩ tiêu cực và đặt ra các cột mốc thực tế để hoàn thành.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### 4. Tảng Băng Trôi Của Sự Trì Hoãn
+Diễn giả Phạm Khắc Uy áp dụng mô hình tảng băng trôi để phân tích sự trì hoãn, định nghĩa lại khái niệm mà chúng ta thường gọi là "lười biếng":
+- **Lười biếng chỉ là triệu chứng:** Sự lười biếng thực chất chỉ chiếm 20-30% nguyên nhân của sự trì hoãn.
+- **Nguyên nhân tâm lý chìm sâu:** 70-80% còn lại đến từ những nỗi sợ vô hình—sợ thất bại, sợ bị đánh giá và sợ bản thân không đủ tốt.
+- **Cách vượt qua trì hoãn:** Quản lý các tác nhân kích thích cảm xúc, chia nhỏ các công việc lớn thành các bước vi mô có thể quản lý được, và chuyển dịch trọng tâm từ sự cầu toàn sang tiến độ thực hiện.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### 5. Nâng Cao Kỹ Năng AWS
+Diễn giả Huỳnh Thái Linh tập trung vào việc đào tạo thực hành điện toán đám mây:
+- **Thách thức khi học AWS:** Độ dốc lớn khi tiếp cận kiến trúc đám mây.
+- **AWS Cloud Quest:** Phương pháp học qua trò chơi nhập vai để thực hành các khái niệm đám mây một cách sinh động và trực quan.
+- **Floci:** Trình bày cách công cụ mã nguồn mở này đơn giản hóa quy trình làm việc trên AWS và giúp các lập trình viên dễ dàng đóng góp vào các giải pháp đám mây do cộng đồng phát triển.
 
-#### Domain-Driven Design (DDD)
+---
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+### Kết Quả Hoặc Giá Trị Đạt Được
 
-#### Event-Driven Architecture
+#### Kỹ Năng Chuyên Môn & Kiến Thức Công Nghệ
+- **Thực hành tốt nhất về DevOps:** Tiếp thu các kiến thức sâu sắc về việc xây dựng đường ống CI/CD tự động và nhận thức rõ về chi phí của việc bỏ qua vận hành hệ thống.
+- **Học tập game hóa & Mã nguồn mở:** Biết cách tận dụng AWS Cloud Quest để tự học thực hành và cách tích hợp các công cụ mã nguồn mở như Floci vào quy trình làm việc.
+- **Quy trình phát triển Hackathon:** Hiểu cách xây dựng nhanh các bản mẫu chạy thử, quản lý phạm vi dự án và phát triển ứng dụng dưới áp lực thời gian.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### Kỹ Năng Mềm & Phát Triển Bản Thân
+- **Làm việc nhóm dưới áp lực:** Học cách phối hợp và phân chia công việc hiệu quả trong các mốc thời gian hạn chế và căng thẳng.
+- **Sự tự tin & Lòng tự tin:** Tích lũy các phương pháp để đẩy lùi hội chứng kẻ giả mạo và cải thiện kỹ năng trình bày, thuyết trình trước đám đông.
+- **Quản lý sự trì hoãn:** Có được chiến lược vượt qua các rào cản công việc bằng cách nhận diện các nỗi sợ tâm lý và áp dụng các kỹ thuật điều chỉnh cảm xúc.
+- **Khả năng cộng tác:** Nâng cao "ngôn ngữ chung" (ubiquitous language) giữa bộ phận kỹ thuật và bộ phận quản lý dự án.
 
-#### Compute Evolution
+#### Đóng Góp Cho Nhóm/Dự Án
+- Áp dụng mô hình Tảng băng trôi để phân tích và giảm thiểu các rủi ro chìm ẩn trong các dự án nhóm hiện tại (ví dụ: bổ sung kiểm thử tự động để ngăn ngừa lỗi phát sinh sau này).
+- Thúc đẩy văn hóa học hỏi không ngừng, phản hồi cởi mở và nâng cao nhận thức sức khỏe tinh thần (giải quyết kiệt sức và trì hoãn) trong nhóm thực tập sinh.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+---
 
-#### Amazon Q Developer
+### Một số hình ảnh khi tham gia sự kiện
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+![Registration Approved](/images/4-Event/event1_registration_approved.png?width=45pc)
+*Hình 1: Email xác nhận đăng ký làm việc tại văn phòng AWS cho Buổi Chia sẻ Công nghệ*
 
-### Những Gì Học Được
+![Attendance Check-in](/images/4-Event/event1_attendance_checkin.png?width=45pc)
+*Hình 2: Trạng thái điểm danh check-in và check-out trên hệ thống*
 
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
-
-#### Kiến Trúc Kỹ Thuật
-
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> DẠ MẤY ANH THÔNG CẢM GIÚP EM Ạ, EM QUÊN CHỤP ẢNH NGÀY HÔM ĐẤY EM CÓ HÌNH ẢNH CHECKIN BẢO VỆ Ạ MẤY ANH CÓ GÌ CHECK GIÚP EM TRONG HỆ THỐNG Ạ , EM CẢM ƠN.

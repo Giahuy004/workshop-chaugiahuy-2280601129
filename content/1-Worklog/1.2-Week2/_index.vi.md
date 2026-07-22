@@ -5,55 +5,24 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 2:
-
 * Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Tìm hiểu về Amazon EC2 (Elastic Compute Cloud). Học về các loại Instance types, AMIs, Key Pairs và cách thức tính giá. | 27/04/2026 | 27/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | Cấu hình Security Groups (Inbound/Outbound rules) cho EC2. Viết mã script script user_data để tự động cài đặt Nginx khi khởi tạo máy chủ. | 28/04/2026 | 28/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | Nghiên cứu về mô hình Không máy chủ (Serverless) thông qua AWS Lambda. Viết một hàm Lambda đơn giản bằng Node.js/Java để xử lý chuỗi logic. | 29/04/2026 | 29/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | Tìm hiểu dịch vụ Amazon Elastic Beanstalk và các khái niệm cơ bản về Container (Docker, Amazon ECS/ECR) | 30/04/2026 | 30/04/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | Tiến hành bài Lab: Sử dụng EC2 User Data để tự động clone một source code Frontend (React/Vite) từ GitHub về và chạy deploy trên môi trường máy chủ ảo. <br> Thực hiện tắt/xóa các tài nguyên EC2 dư thừa để tránh phát sinh chi phí. | 01/05/2026 | 01/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | Xem lại trong tuần đã học và làm được những gì rồi note lại | 02/05/2026 | 02/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 2:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Khởi tạo thành công một EC2 Instance
+* Truy cập được vào địa chỉ Public IP của EC2 từ trình duyệt và thấy trang chào mừng của Nginx
+* Hiểu cách AWS đơn giản hóa việc deploy code mà không cần tự quản lý hạ tầng hệ điều hành
+* Thực thi thử nghiệm hàm Lambda trên AWS Console thành công
+* Tối ưu hóa chi phí tài khoản thực tập

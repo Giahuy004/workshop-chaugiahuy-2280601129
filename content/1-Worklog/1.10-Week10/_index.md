@@ -5,53 +5,24 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deploy DynamoDB tables, initialize t3.medium virtual machines to run AI models, and set up CloudWatch for monitoring.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | Create high-speed NoSQL Amazon DynamoDB database. Design the database table structure to store user scan and analysis history. | 22/06/2026 | 22/06/2026 | |
+| 3 | Configure Amazon EC2 virtual machine (or ECS) using `t3.medium` instances, placed within a completely isolated network Sandbox environment (no internet gateway) to run the AI model. | 23/06/2026 | 23/06/2026 | |
+| 4 | Establish internal connection from Backend to the EC2 AI server via VPC Endpoints to ensure secure internal data transmission. | 24/06/2026 | 24/06/2026 | |
+| 5 | Configure Amazon CloudWatch to view AI model execution logs and measure network traffic for system analysis. | 25/06/2026 | 25/06/2026 | |
+| 6 | Connect the Git repository containing the team's Hugo source code with AWS Amplify service to automatically host the cybersecurity report website. Replace the default website icons. | 26/06/2026 | 26/06/2026 | |
+| 7 | Implement cost optimization policy: Shut down the EC2 `t3.medium` instance and scale down VPC Endpoints immediately after test sessions conclude to reduce costs from $33.00/month to $2.50. | 27/06/2026 | 27/06/2026 | |
 
 ### Week 10 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Initialized the data storage table on DynamoDB, ready to receive and log data.
+* Successfully launched the AI server inside the secure network zone.
+* Established smooth internal transmission paths between services without routing through the public internet.
+* Displayed AI application logs and performance metrics visually on CloudWatch.
+* Hosted the Web Admin website online stably on the AWS Amplify environment.
+* Fully optimized the operating costs of the AI server according to the plan.

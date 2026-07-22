@@ -5,55 +5,24 @@ weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 9:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tạo cổng API Gateway, viết mã Lambda Python và thiết lập hàng đợi SQS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Khởi tạo Amazon API Gateway. Thiết kế cấu trúc các cổng API điều hướng bao gồm đầu `/upload` và `/get-result`. | 15/06/2026 | 15/06/2026 | |
+| 3 | Viết mã nguồn Python cho AWS Lambda để xử lý logic chính khi có yêu cầu gọi từ ứng dụng Web Frontend thông qua API Gateway. | 16/06/2026 | 16/06/2026 | |
+| 4 | Cấu hình Amazon SQS (Simple Queue Service) để làm hàng đợi. Thiết lập logic xử lý: Nếu có 100 người upload file cùng lúc, hệ thống sẽ tự động xếp hàng chúng lại để tránh "ngập" dữ liệu phân tích. | 17/06/2026 | 17/06/2026 | |
+| 5 | Thiết lập AWS Step Functions để quản lý hàng đợi phức tạp và điều phối luồng trạng thái xử lý dữ liệu từ Lambda qua SQS. | 18/06/2026 | 18/06/2026 | |
+| 6 | Viết code Python cho Lambda nhằm kích hoạt tính năng tự động thông báo khi có file mới vừa rơi vào S3 bucket hệ thống. | 19/06/2026 | 19/06/2026 | |
+| 7 | Test tích hợp chuỗi liên kết: API Gateway -> Lambda -> SQS & Step Functions. Tắt các hàm kiểm thử để tiết kiệm tài nguyên hệ thống. | 20/06/2026 | 20/06/2026 | |
 
 ### Kết quả đạt được tuần 9:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Định nghĩa xong các endpoint của API Gateway trên môi trường staging.
+* Hàm Lambda xử lý logic cơ bản chạy mượt mà trên môi trường thử nghiệm.
+* Hàng đợi SQS chịu tải tốt, phân luồng dữ liệu không bị nghẽn.
+* Xây dựng xong sơ đồ trạng thái (State Machine) điều phối luồng Serverless tự động.
+* Hệ thống tự động phát hiện và gửi tín hiệu xử lý ngay khi có file mới tải lên.
+* Luồng Serverless Backend hoạt động đồng bộ.

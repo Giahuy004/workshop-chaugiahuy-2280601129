@@ -5,54 +5,24 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Quản lý ngân sách dự án, tổng duyệt kiến thức hệ thống đám mây và nghiệm thu thực tập.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Nghiên cứu về các mô hình tính giá và công cụ quản lý tài chính của AWS: AWS Pricing Calculator, AWS Budgets và AWS Cost Explorer. | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | Thiết lập một hạn mức ngân sách giả định trên AWS Budgets và cấu hình cảnh báo nếu chi phí thực tế vượt quá 80% ngân sách dự kiến. | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | Tìm hiểu tổng quan về chiến lược dịch chuyển hạ tầng lên Cloud (Migration với quy tắc 6 Rs: Rehost, Replatform, Refactor,...) và khái niệm cơ bản về Hạ tầng dạng mã Code - Infrastructure as Code (AWS CloudFormation / AWS CDK). | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | Tổng duyệt dự án thực tập cá nhân (Capstone Project): Kiểm tra tính liên thông từ Frontend (S3/CloudFront) -> API Gateway/ALB -> Backend (EC2/Lambda) -> Database (RDS). Đảm bảo mọi thứ chạy mượt mà và bảo mật. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | Tham gia làm các bộ đề thi thử (Practice Exams) của chứng chỉ AWS Certified Cloud Practitioner (CLF-C02) hoặc Solutions Architect Associate dựa trên nguồn tài liệu chuẩn hóa từ các buổi học của AWS Study Group. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | Tiến hành dọn dẹp triệt để (Terminate/Delete) toàn bộ các tài nguyên, VPC, máy chủ, DB đã tạo trong suốt 6 tuần qua để bàn giao tài khoản sạch sẽ. Hoàn thiện slide thuyết trình báo cáo thực tập gửi cho Mentor/Công ty. | 30/05/2026 | 30/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Sử dụng AWS Pricing Calculator để lên bảng ước tính chi phí hàng tháng (Cost Estimation) cho một hệ thống Web Production thực tế.
+* Thiết lập thành công hệ thống kiểm soát tài chính tự động cho tài khoản đám mây của doanh nghiệp/cá nhân.
+* Hiểu cách viết một file template (YAML/JSON) để tự động hóa việc dựng lại toàn bộ hạ tầng mạng, máy chủ chỉ bằng một click.
+* Hệ thống demo hoạt động hoàn hảo dưới sự chứng kiến và đánh giá sơ bộ của các thành viên trong nhóm làm việc.
+* Đạt điểm số mục tiêu trong các bài thi thử; củng cố các lỗ hổng kiến thức cuối cùng.
+* Tài khoản AWS quay về trạng thái ban đầu, tránh phát sinh chi phí ẩn; hoàn tất kỳ thực tập một cách chuyên nghiệp.

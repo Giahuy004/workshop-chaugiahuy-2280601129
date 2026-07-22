@@ -10,116 +10,82 @@ pre: " <b> 4.2. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch "Chương trình Học tập thực tế: AWS — Kiến trúc đám mây doanh nghiệp & Ứng dụng thực tế"
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Mang đến cho sinh viên góc nhìn toàn diện, thực tế nhất về ngành Điện toán đám mây (Cloud Computing) và Trí tuệ nhân tạo tạo sinh (GenAI).
+- Tìm hiểu cách các doanh nghiệp lớn thiết kế và vận hành hệ thống kiến trúc dữ liệu khổng lồ trong thực tế.
+- Thu hẹp khoảng cách giữa lý thuyết giảng đường và triển khai thực chiến trong ngành công nghiệp.
+- Tạo cơ hội kết nối (networking) chất lượng giữa sinh viên và các đối tác, chuyên gia công nghệ hàng đầu của AWS.
 
-### Danh Sách Diễn Giả
+### Quy Mô & Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Đối tác phối hợp tổ chức:** AWS Việt Nam, Swinburne Việt Nam, Renova Cloud, và Cloud Kinetics.
+- **Đối tượng tham gia:** Hơn 100 sinh viên Swinburne đã vượt hành trình hơn 200 km, khởi hành từ 5 giờ sáng để có mặt tại Tòa nhà Bitexco Financial Tower.
+- **Dàn diễn giả:**
+  - **Mr. Nguyễn Gia Hưng** – Trưởng bộ phận Kiến trúc sư Giải pháp tại Việt Nam & Campuchia, Amazon Web Services
+  - **Ms. Như Trần** – Quản lý khách hàng doanh nghiệp (Account Manager) tại AWS.
+  - **Mr. Khang Nguyễn** – Kỹ sư giải pháp (Solutions Architect) từ Cloud Kinetics (đồng thời là cựu sinh viên Swinburne).
+  - **Mr. Vinh Bành** – Kỹ sư dữ liệu (Data Engineer) đến từ đối tác Renova
+
+---
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### 1. Bức tranh toàn cảnh về thị trường việc làm & Xu hướng tuyển dụng
+- Cập nhật những yêu cầu tuyển dụng mới nhất trong ngành Điện toán đám mây và Trí tuệ nhân tạo.
+- Định hướng lộ trình phát triển sự nghiệp toàn cầu cho các kỹ sư Việt Nam, tập trung vào việc sở hữu chứng chỉ chuyên môn và xây dựng sản phẩm thực tế.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### 2. Từ giảng đường đến thực chiến: Hành trình trở thành Kỹ sư Dữ liệu
+- Lắng nghe câu chuyện chuyển mình thực tế từ một sinh viên thành một kỹ sư dữ liệu thực thụ trong môi trường chuyên nghiệp.
+- Khám phá cách các doanh nghiệp thiết kế và tối ưu hóa kiến trúc dữ liệu thực tế nhằm đảm bảo tính sẵn sàng cao và tối ưu chi phí vận hành.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### 3. Thu hẹp khoảng cách "Học đi đôi với Hành"
+- Thảo luận các bí quyết chuyển hóa kiến thức lý thuyết học thuật trên giảng đường thành các giải pháp giải quyết bài toán thực tế của doanh nghiệp.
+- Cách thiết kế portfolio cá nhân, tham gia đóng góp mã nguồn mở và giải quyết các bài tập case-study thực tế để ghi điểm tuyệt đối trong mắt nhà tuyển dụng.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### 4. Fireside Chat: Nuôi dưỡng thế hệ tài năng công nghệ đột phá
+- Trao đổi sâu về các chương trình và giải pháp nhằm nuôi dưỡng và phát triển thế hệ nhân tài công nghệ tiếp theo của Việt Nam.
+- Vai trò của cộng đồng, sự đồng hành của người đi trước (mentorship) và việc tự thực hành liên tục trên các lab đám mây.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+---
 
-#### Domain-Driven Design (DDD)
+### Bài Học Kinh Nghiệm Rút Ra
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- **Tư duy giải quyết vấn đề:** Công nghệ thay đổi mỗi ngày, nhưng tư duy giải quyết vấn đề cốt lõi mới là chìa khóa vàng để thích ứng với mọi xu hướng.
+- **Tinh thần thực chiến:** Chủ động bắt tay vào làm (thực hành qua các lab, xây dựng ứng dụng thực tế) đem lại hiệu quả học tập vượt trội so với chỉ học lý thuyết đơn thuần.
+- **Chủ động kết nối:** Tích cực học hỏi, đặt câu hỏi cho chuyên gia và tìm kiếm cơ hội kết nối trong ngành sẽ mở ra nhiều con đường phát triển sự nghiệp.
 
-#### Event-Driven Architecture
+---
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+### Kết Quả Hoặc Giá Trị Đạt Được
 
-#### Compute Evolution
+#### Kỹ Năng Kỹ Thuật & Kiến Thức Ngành
+- **Kiến trúc đám mây doanh nghiệp:** Hiểu sâu cách các đối tác tư vấn đám mây (Renova Cloud, Cloud Kinetics) xây dựng nền tảng đám mây an toàn, có khả năng mở rộng cao và tiết kiệm chi phí.
+- **Ứng dụng GenAI:** Nắm bắt cách trí tuệ nhân tạo tạo sinh đang được tích hợp vào các quy trình kinh doanh và vận hành hệ thống dữ liệu.
+- **Hiểu biết thực tế về Data Engineering:** Hình dung rõ ràng công việc hàng ngày của một kỹ sư dữ liệu và vòng đời của dữ liệu trong hệ thống thực tế.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Kỹ Năng Mềm & Phát Triển Cá Nhân
+- **Hỗ trợ tổ chức & Điều phối:** Tham gia hỗ trợ dẫn đoàn và điều phối cho hơn 100 sinh viên trong suốt chuyến học tập thực tế tại văn phòng AWS, giúp duy trì lịch trình và hỗ trợ các hoạt động kết nối.
+- **Kỹ năng Networking:** Tạo dựng các mối liên hệ quý giá với các kỹ sư của AWS Việt Nam và các chuyên gia từ các đối tác lớn.
+- **Xác định mục tiêu nghề nghiệp:** Xây dựng lộ trình học tập rõ ràng hơn, hướng tới việc đáp ứng các tiêu chuẩn tuyển dụng thực tế của ngành.
 
-#### Amazon Q Developer
+#### Đóng Góp Cho Nhóm/Dự Án
+- Đem lại các góc nhìn thực tế về kiến trúc hệ thống lớn của doanh nghiệp, giúp định hướng cấu trúc dự án thực tập của nhóm đi đúng hướng và tối ưu hơn.
+- Chia sẻ lại các thông tin hữu ích về xu hướng công nghệ đám mây và nhu cầu thực tế của thị trường với các thành viên khác trong đội ngũ.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+---
 
-### Những Gì Học Được
+### Một số hình ảnh khi tham gia sự kiện
 
-#### Tư Duy Thiết Kế
+![Registration Approved](/images/4-Event/registration_approved.png?width=45pc)
+*Hình 1: Email xác nhận đăng ký tham dự sự kiện tại văn phòng AWS*
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+![Attendance Check-in](/images/4-Event/attendance_checkin.png?width=45pc)
+*Hình 2: Trạng thái điểm danh làm việc trên cổng thông tin tự phục vụ*
 
-#### Kiến Trúc Kỹ Thuật
+![AWS Study Tour Group Photo](/images/4-Event/group_photo.png?width=45pc)
+*Hình 3: Ảnh chụp tập thể sự kiện AWS Study Tour tại tòa nhà Bitexco*
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-#### Chiến Lược Hiện Đại Hóa
-
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
-
-### Trải nghiệm trong event
-
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
-
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
-
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
-
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> Nhìn chung, chuyến Study Tour tại AWS là một hành trình cực kỳ nhiều năng lượng và giá trị thực tế. Sự kiện không chỉ giúp thu hẹp khoảng cách giữa lý thuyết và thực tiễn mà còn truyền cảm hứng mạnh mẽ để tôi tiếp tục theo đuổi con đường kỹ sư công nghệ đám mây chuyên nghiệp.

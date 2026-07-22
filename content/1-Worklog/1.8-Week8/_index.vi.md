@@ -5,55 +5,24 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Cấu hình xác thực người dùng qua Amazon Cognito và thiết lập tích hợp lưu trữ client-side và server-side với Amazon S3.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | Khởi tạo và cấu hình Amazon Cognito User Pool để phục vụ tính năng đăng ký, đăng nhập hệ thống. | 08/06/2026 | 08/06/2026 | |
+| 3 | Lập trình giao diện Web Frontend tích hợp luồng xác thực Cognito, xử lý lưu trữ an toàn mã token session và cookie. | 09/06/2026 | 09/06/2026 | |
+| 4 | Xây dựng kho chứa Amazon S3 phía Client nhận tập tin trực tiếp và cấu hình CORS. | 10/06/2026 | 10/06/2026 | |
+| 5 | Thiết lập kho lưu trữ Amazon S3 phía Server; cấu hình S3 Lifecycle Policies để tự động hóa quy trình phân loại và dọn rác dữ liệu. | 11/06/2026 | 11/06/2026 | |
+| 6 | Viết logic cho Frontend để gọi API lấy Presigned URL, giúp tối ưu hóa việc upload file trực tiếp lên S3 một cách bảo mật. | 12/06/2026 | 12/06/2026 | |
+| 7 | Kiểm tra an ninh các liên kết S3 công cộng. Thực hiện tối ưu chi phí lưu trữ tệp tin trên S3. Họp nhóm review tiến độ tích hợp Web - Storage. | 13/06/2026 | 13/06/2026 | |
 
 ### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Tạo và cấu hình thành công Amazon Cognito User Pool hoạt động ổn định.
+* Web Frontend lưu trữ và quản lý an toàn mã token session và cookie.
+* Cấu hình CORS thành công cho S3 Client và nhận tập tin trực tiếp.
+* Kích hoạt thành công S3 Lifecycle Policies phía Server để phân loại dữ liệu tự động.
+* Frontend lấy được Presigned URL và đẩy file lên kho chứa S3 an toàn.
+* Hệ thống lưu trữ chạy ổn định.

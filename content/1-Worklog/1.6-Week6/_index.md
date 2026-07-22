@@ -5,53 +5,24 @@ weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Manage project budget, review overall cloud system knowledge, and complete the internship final evaluation.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | Research AWS pricing models and financial management tools: AWS Pricing Calculator, AWS Budgets, and AWS Cost Explorer. | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | Set a simulated budget limit on AWS Budgets and configure alerts if actual costs exceed 80% of the expected budget. | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | Learn about cloud infrastructure migration strategies (6 Rs migration rules: Rehost, Replatform, Refactor, etc.) and basic Infrastructure as Code (IaC) concepts (AWS CloudFormation / AWS CDK). | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | Conduct an overall review of the personal Capstone Project: Check end-to-end integration from Frontend (S3/CloudFront) -> API Gateway/ALB -> Backend (EC2/Lambda) -> Database (RDS). Ensure smooth operations and security. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | Take practice exams for AWS Certified Cloud Practitioner (CLF-C02) or Solutions Architect Associate based on standardized learning resources from the AWS Study Group sessions. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | Completely clean up (Terminate/Delete) all resources, VPCs, servers, and databases created over the past 6 weeks to hand over a clean account. Finalize the internship report presentation slide for Mentor/Company. | 30/05/2026 | 30/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 6 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Used AWS Pricing Calculator to create a monthly cost estimation table for a real Web Production system.
+* Successfully established an automated financial monitoring system for enterprise/personal cloud accounts.
+* Understood how to write a template file (YAML/JSON) to automate rebuilding the entire network and server infrastructure with a single click.
+* Demonstrated a perfectly functioning demo system under the review and preliminary assessment of working group members.
+* Reached target scores on practice tests; closed final knowledge gaps.
+* Returned the AWS account to its original state, avoiding hidden costs, and successfully completed the internship in a professional manner.

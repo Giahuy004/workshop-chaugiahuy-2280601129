@@ -6,42 +6,38 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects:
+> Here, I would like to share my personal feedback regarding my experience in the First Cloud AI Journey program, helping the organizing team further improve and grow the program:
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The internship environment at First Cloud AI Journey is highly dynamic and professional. The network infrastructure and AWS Sandbox accounts were fully and quickly provisioned, providing the best conditions for me to practice Labs and develop the team Capstone project. The workspace supported maximum concentration.
 
 **2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+I received very enthusiastic and professional support from Mentor Nguyen Gia Hung and the administration team. When dealing with complex issues such as IAM Policy authorization, KMS security configuration, or VPC routing issues, the mentor always suggested problem-solving directions for me to explore deeper instead of directly giving the answers, which significantly improved my technical troubleshooting mindset.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+The internship content is completely compatible with and directly supports my Information Technology / Software Engineering major. Practical problems such as designing isolated VPCs, writing Lambda backend code, connecting to DynamoDB, and optimizing infrastructure costs effectively organized and consolidated the database and computer networks theory taught at school.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+The internship provided vast opportunities to learn about AWS cloud services. I not only mastered how popular cloud services operate but also gained insights into CI/CD automation, collaborative source control using GitHub Organization, and clear technical documentation presentation.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The team spirit was most prominently displayed when our team designed and integrated the Capstone Project. Members proactively shared difficulties, cross-tested Frontend and Backend integration flows, and successfully resolved integration bugs to ensure system stability.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
-
----
+I highly appreciate that the organizers offered flexible scheduling, allowing students to balance classes and exams at school. Provisioning real AWS resources for study is a highly valuable benefit that not every host company supports so well.
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
 
----
+* **What did you find most satisfying during your internship?**  
+  What satisfied me the most was building the entire system from scratch and seeing data flow smoothly end-to-end (Frontend -> API Gateway -> SQS -> Lambda -> DynamoDB & EC2 AI Sandbox) along with implementing a highly cost-efficient budget management plan.
+* **What do you think the company should improve for future interns?**  
+  The company should organize periodic seminars or sharing sessions with senior DevOps/Cloud engineers in the team to help interns better understand real-world systems standards inside enterprise environments.
+* **If recommending to a friend, would you suggest they intern here? Why or why not?**  
+  Definitely yes. This is a top-quality internship environment for anyone interested in Cloud/DevOps, with a clear learning roadmap, dedicated mentorship, and abundant practical hands-on exercises.
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+* **Suggestions to improve experience**: Add small sections introducing containerization (like Docker) and other IaC tools so that students can have a comprehensive overview of current industry trends.
+* **Future expectations**: I look forward to deepening my expertise on AWS and hope to have the opportunity to apply for a full-time Cloud/DevOps engineer position within the unit after graduation.
