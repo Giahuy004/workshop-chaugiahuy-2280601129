@@ -81,17 +81,17 @@ Dự án được chia thành 4 giai đoạn chính trong kỳ thực tập:
 Bảng ngân sách chi tiết dựa trên [AWS Pricing Calculator](https://calculator.aws/):  
 
 *Chi phí hạ tầng (Tối ưu hóa chạy thử nghiệm)*  
-- **Amazon EC2 (t3.medium)**: Máy ảo chạy AI trong Sandbox. Giá chạy 24/7: ~33.00 USD/tháng. Giá tối ưu (chỉ bật khi test): **~2.50 USD/tháng**.  
-- **AWS WAF**: Tường lửa bảo vệ API Gateway. Giá chạy 24/7: ~7.00 USD/tháng. Giá tối ưu (chỉ bật khi test): **~0.50 USD/tháng**.  
-- **VPC Endpoints**: Cổng kết nối nội bộ Sandbox. Giá chạy 24/7: ~9.00 USD/tháng. Giá tối ưu (chỉ bật khi test): **~0.60 USD/tháng**.  
-- **AWS KMS**: Khóa mã hóa dữ liệu. Giá chạy 24/7: ~1.00 USD/tháng. Giá tối ưu: **~1.00 USD/tháng**.  
-- **AWS Secrets Manager**: Két sắt lưu mật khẩu. Giá chạy 24/7: ~0.40 USD/tháng. Giá tối ưu: **~0.40 USD/tháng**.  
-- **AWS Config**: Giám sát cấu hình tự động. Giá chạy 24/7: ~1.00 USD/tháng. Giá tối ưu: **~0.20 USD/tháng**.  
-- **Các dịch vụ serverless khác (S3, Lambda, API Gateway, SQS, DynamoDB, Amplify)**: Được bao phủ hoàn toàn trong gói **AWS Free Tier** (Miễn phí cho quy mô phát triển/thử nghiệm).  
+- **Amazon EC2 (t3.medium)**: Máy ảo dành cho học máy trong môi trường thử nghiệm. Chi phí hoạt động 24/7: 33,00 USD/tháng. Chi phí tối ưu (chỉ áp dụng cho mục đích thử nghiệm): **2,50 USD/tháng**.  
+- **AWS WAF**: Tường lửa bảo vệ API Gateway. Chi phí hoạt động 24/7: 7,00 USD/tháng. Chi phí tối ưu (chỉ áp dụng cho mục đích thử nghiệm): **0,50 USD/tháng**.  
+- **Điểm cuối VPC**: Cổng kết nối nội bộ. Chi phí 24/7: 9,00 USD/tháng. Chi phí tối ưu (chỉ áp dụng cho mục đích thử nghiệm): **0,60 USD/tháng**.  
+- **AWS KMS**: Khóa mã hóa dữ liệu. Chi phí: **1,00 USD/tháng**.  
+- **AWS Secrets Manager**: Kho lưu trữ mật khẩu/bí mật. Chi phí: **0,40 USD/tháng**.  
+- **AWS Config**: Kiểm tra cấu hình tự động. Chi phí 24/7: 1,00 USD/tháng. Chi phí tối ưu: **0,20 USD/tháng**.  
+- **Các dịch vụ Serverless khác (S3, Lambda, API Gateway, SQS, DynamoDB, Amplify)**: Được bao gồm hoàn toàn trong gói **AWS Free Tier** trong giai đoạn phát triển/thử nghiệm.  
 
 *Tổng chi phí ước tính*:  
-- **Vận hành chạy 24/7**: ~51.40 USD/tháng (~1.250.000đ/tháng)  
-- **Tối ưu hóa chạy thử nghiệm (Chỉ bật khi test)**: **~5.20 USD/tháng** (~125.000đ/tháng)  
+- **Vận hành 24/7**: Khoảng 51,40 USD/tháng (Khoảng 1.250.000đ/tháng)  
+- **Tối ưu hóa chạy thử nghiệm (Chỉ bật khi test)**: **Khoảng 5,20 USD/tháng** (Khoảng 125.000đ/tháng)  
 
 ### 7. Đánh giá rủi ro  
 *Ma trận rủi ro*  

@@ -80,17 +80,17 @@ The project is divided into 4 major phases:
 Detailed infrastructure costs calculated using the [AWS Pricing Calculator](https://calculator.aws/):  
 
 *Infrastructure Costs (Optimized for Testing)*  
-- **Amazon EC2 (t3.medium)**: Machine learning VM in Sandbox. Cost 24/7: ~$33.00/month. Optimized cost (only active for tests): **~$2.50/month**.  
-- **AWS WAF**: Firewall protecting API Gateway. Cost 24/7: ~$7.00/month. Optimized cost (only active for tests): **~$0.50/month**.  
-- **VPC Endpoints**: Internal connection gateways. Cost 24/7: ~$9.00/month. Optimized cost (only active for tests): **~$0.60/month**.  
-- **AWS KMS**: Data encryption key. Cost: **~$1.00/month**.  
-- **AWS Secrets Manager**: Vault for passwords/secrets. Cost: **~$0.40/month**.  
-- **AWS Config**: Automated configuration audit. Cost 24/7: ~$1.00/month. Optimized cost: **~$0.20/month**.  
+- **Amazon EC2 (t3.medium)**: Machine learning VM in Sandbox. Cost 24/7: $33.00/month. Optimized cost (only active for tests): **$2.50/month**.  
+- **AWS WAF**: Firewall protecting API Gateway. Cost 24/7: $7.00/month. Optimized cost (only active for tests): **$0.50/month**.  
+- **VPC Endpoints**: Internal connection gateways. Cost 24/7: $9.00/month. Optimized cost (only active for tests): **$0.60/month**.  
+- **AWS KMS**: Data encryption key. Cost: **$1.00/month**.  
+- **AWS Secrets Manager**: Vault for passwords/secrets. Cost: **$0.40/month**.  
+- **AWS Config**: Automated configuration audit. Cost 24/7: $1.00/month. Optimized cost: **$0.20/month**.  
 - **Other Serverless Services (S3, Lambda, API Gateway, SQS, DynamoDB, Amplify)**: Fully covered by the **AWS Free Tier** during development/testing.  
 
 *Total Estimated Cost*:  
-- **24/7 Operation**: ~$51.40/month  
-- **Optimized Testing Operation (Active during tests only)**: **~$5.20/month**  
+- **24/7 Operation**: Approx. $51.40/month  
+- **Optimized Testing Operation (Active during tests only)**: **Approx. $5.20/month**  
 
 ### 7. Risk Assessment  
 *Risk Matrix*  
