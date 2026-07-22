@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam** từ **20/04/2026** đến **12/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
 Tôi đã tham gia **xây dựng hệ thống Web Admin và luồng xử lý dữ liệu Serverless Backend tích hợp mô hình AI trên môi trường điện toán đám mây AWS**, qua đó cải thiện kỹ năng **thiết kế kiến trúc mạng an toàn (VPC), cấu hình bảo mật hệ thống (IAM, WAF, KMS, Secrets Manager), lập trình Serverless (Lambda, API Gateway), tự động hóa triển khai (CI/CD với CodePipeline, Amplify), quản lý chi phí và làm việc nhóm**.  

@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
 
 During my internship at **Amazon Web Services Viet Nam Company Limited** from **20/04/2026** to **12/07/2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
 I participated in **building a Web Admin system and a Serverless Backend data processing pipeline integrated with an AI model on the AWS cloud environment**, through which I improved my skills in **secure network architecture design (VPC), system security configuration (IAM, WAF, KMS, Secrets Manager), Serverless programming (Lambda, API Gateway), automated deployment (CI/CD with CodePipeline, Amplify), cost management, and teamwork**.  
