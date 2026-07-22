@@ -7,7 +7,7 @@ pre: " <b> 1. </b> "
 ---
 
 
-**On this page**, I will introduce my worklog across **12 weeks of internship** at Amazon Web Services Vietnam. The program ran from **20/04/2026 to 11/07/2026**, covering the AWS cloud fundamentals phase (Weeks 1–6) and a hands-on team project phase (Weeks 7–12).
+**On this page**, I will introduce my worklog across **12 weeks of internship** at Amazon Web Services Vietnam. The program ran from **20/04/2026 to 12/07/2026**, covering the AWS cloud fundamentals phase (Weeks 1–6) and a hands-on team project phase (Weeks 7–12).
 
 **Week 1:** [Getting familiar with AWS, IAM, CLI and core cloud computing concepts](1.1-week1/)
 

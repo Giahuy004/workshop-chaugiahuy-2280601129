@@ -7,7 +7,7 @@ pre: " <b> 1. </b> "
 ---
 
 
-**Trong trang này** tôi sẽ giới thiệu worklog của mình trong suốt **12 tuần thực tập** tại Amazon Web Services Việt Nam. Chương trình được thực hiện từ ngày **20/04/2026 đến 11/07/2026**, bao gồm giai đoạn học nền tảng đám mây AWS (tuần 1–6) và giai đoạn xây dựng dự án nhóm thực tế (tuần 7–12).
+**Trong trang này** tôi sẽ giới thiệu worklog của mình trong suốt **12 tuần thực tập** tại Amazon Web Services Việt Nam. Chương trình được thực hiện từ ngày **20/04/2026 đến 12/07/2026**, bao gồm giai đoạn học nền tảng đám mây AWS (tuần 1–6) và giai đoạn xây dựng dự án nhóm thực tế (tuần 7–12).
 
 **Tuần 1:** [Làm quen với AWS, IAM, CLI và các dịch vụ điện toán đám mây cơ bản](1.1-week1/)
 
