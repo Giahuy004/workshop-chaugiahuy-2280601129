@@ -9,114 +9,89 @@ pre: " <b> 4.3. </b> "
 
 # Event Summary "AWS Agentic AI Build Week (AABW) Hackathon & Tech Sharing"
 
-### Event Overview
+### Purpose of the Event
 
-- **Event Name:** AWS Agentic AI Build Week (AABW) Hackathon & Tech Sharing
-- **Date & Time:** July 08, 2026 - July 12, 2026
-- **Location:** AWS Vietnam Office (Bitexco Financial Tower / Amazon Office) & Online
-- **Organizers & Partners:** Amazon Web Services (AWS) Vietnam, First Cloud Journey (FCJ/FCAJ), AWS User Group & All Builders Welcome (AABW).
-- **Objective:** Research, design, and build **Agentic AI** applications on AWS Cloud, compete in an intensive Hackathon, and present production engineering case studies from 4 presentation groups.
+- Participate in the intensive **Agentic AI** hackathon and workshop series organized by **Amazon Web Services (AWS)**.
+- Explore next-generation Artificial Intelligence technologies (GenAI, Multi-Agent Systems, Agentic AI Core) and integrate leading AWS cloud services (Amazon Bedrock, SageMaker, Lambda, API Gateway).
+- Learn production engineering solutions from 4 presentation groups: Automated crowd density monitoring, Solution Architect support tools, corporate strategy signal detection, and multi-channel conversational ordering bots.
+- Sharpen practical engineering skills under high time pressure (Hackathon), optimize Cloud infrastructure costs, and pitch solutions to AWS experts.
 
----
+### Scale & Speakers
 
-### PRESENTATION & GROUP BREAKDOWN (4 POWERPOINT PRESENTATIONS)
-
----
-
-#### 📌 Group 1: S.H.E.P.H.E.R.D – Smart Human-flow Evaluation & Dispatch
-*Presentation File:* `Hackathon_Journey_3KA.pptx`
-
-- **Project Title:** **S.H.E.P.H.E.R.D** (Smart Human-flow Evaluation, Prediction, Hazard Detection, Response, and Dispatch)
-- **Team (Team 3KA):** Capstone project prototype validated and scaled during the AABW Hackathon.
-- **Problem & Motivation:** 
-  - Venue operators struggle to manually monitor crowd density across multiple entrances, queues, and halls simultaneously.
-  - Manual monitoring is reactive, slow to scale, and prone to missing critical overcrowding hazards.
-- **Core Capabilities:**
-  - Transforms raw camera feeds into real-time operational data: Detects & tracks people, measures crowd density, and estimates queue congestion.
-  - Predicts overcrowding pressure, issues proactive alerts, and dispatches field operators automatically.
-- **Technical Architecture:**
-  - **Computer Vision & Tracking:** YOLO + ByteTrack.
-  - **Cloud & AI Layer:** Amazon SageMaker, Amazon Bedrock AgentCore + Strands Agent (Multi-Agent System featuring *Autonomous Monitor* & *Operator Copilot* for natural-language queries).
-  - **Frontend:** React Monitoring Dashboard.
-- **Hackathon Challenges & Real Experiences:**
-  - Managing AI inference latency, maintaining stable live video streams, and optimizing cloud compute costs.
-  - Late-night debugging until 3 AM, drinking RedBull, and maintaining clear role delegation between design, coding, and pitching.
-- **Key Takeaways:** *"Showing up is half the battle"* — focus on finishing a small working prototype rather than a large unfinished idea, and value community networking.
+- **Co-organizing Partners:** Amazon Web Services (AWS) Vietnam, First Cloud Journey (FCJ/FCAJ), AWS User Group Vietnam, and All Builders Welcome (AABW).
+- **Participants:** Cloud engineers, AI developers, and students forming teams for intense building during the *Agentic AI Build Week*.
+- **Speakers & Presentation Topics:**
+  - **Topic 1 (PP: `Hackathon_Journey_3KA.pptx`):** S.H.E.P.H.E.R.D – Smart Human-flow Evaluation, Prediction, Hazard Detection, Response, and Dispatch
+    - *Speakers:* Team 3KA
+  - **Topic 2 (PP: `SA_Professional_Native_App.pptx`):** Solution Architect Professional AI Native App – Automated Cloud Architecture Design
+    - *Speakers:* Team Plan V (Pham Tien Thuan, Phat Huynh, Hoang Long, Le Minh Nghia, Tran Dai Vi, Nguyen An)
+  - **Topic 3 (PP: `SignalScout.pptx`):** Signal Scout – Early Corporate Strategic Change & Restructuring Signal Detection
+    - *Speakers:* Dream AI Team (Le Tan Luc, Do Hoang Hieu, Trieu Quoc Hao, Nguyen Van Duy Khiem, Nguyen Cong Minh, Nguyen Tran Minh Quan)
+  - **Topic 4 (PP: `OneTeam_CommunityDay.pptx`):** OneTeam & KFC Bot Agent – Multi-Channel AI Conversational Ordering Experience
+    - *Speakers:* Team OneTeam (Anh Duy, Tran Dong, Doan Trung, Minh Viet, Anshul Roy)
 
 ---
 
-#### 📌 Group 2: Solution Architect Professional AI Native App
-*Presentation File:* `SA_Professional_Native_App.pptx`
+### Highlights
 
-- **Project Title:** **Solution Architect Professional AI Native App**
-- **Team (Team Plan V):** Pham Tien Thuan, Phat Huynh, Hoang Long, Le Minh Nghia, Tran Dai Vi, Nguyen An.
-- **Problem & Motivation:** 
-  - Enterprise clients frequently demand urgent AI system architectures (e.g., SOP/BRD/PRD documents).
-  - Solution Architects must manually read documents line-by-line, start from a blank page, draw diagrams manually, and calculate cloud cost estimations.
-- **Core Capabilities:**
-  - Analyzes natural language and extracts a Requirements Catalogue in minutes.
-  - Drafts hybrid-cloud aware architecture options aligned with corporate standards.
-  - Generates editable Drawio diagrams and AWS architecture diagrams using official AWS icons.
-  - Estimates directional AWS cloud costs for region `ap-southeast-1` and iteratively refines via a chat sidebar.
-- **Impact & Optimization:**
-  - Transitions from manual document reading and diagramming to an automated workflow.
-  - Generates initial architecture drafts in minutes, produces IaC code automatically, and delivers instant AWS cost estimates alongside the architecture.
+#### 1. S.H.E.P.H.E.R.D – Smart Human-flow Evaluation & Dispatch
+Team 3KA presented an intelligent crowd monitoring and operator dispatch system:
+- **Problem & Motivation:** Venue operators struggle to manually monitor crowd density across multiple entrances, queues, and halls simultaneously.
+- **Core Capabilities:** Transforms camera feeds into real-time operational data, measures crowd density, evaluates queue status, predicts overcrowding risks, and automatically issues early alerts to dispatch personnel.
+- **Technical Architecture:** Combines Computer Vision (YOLO + ByteTrack), Amazon SageMaker, Amazon Bedrock AgentCore + Strands Agent (Multi-Agent System featuring *Autonomous Monitor* and *Operator Copilot*), and a React Monitoring Dashboard.
+- **Hackathon Challenges:** Managing AI inference latency, maintaining live video stream stability, late-night debugging until 3 AM, and effective role delegation within the team.
 
----
+#### 2. Solution Architect Professional AI Native App
+Team Plan V introduced an AI Native app assisting Solution Architects in automating cloud architecture design:
+- **Problem & Motivation:** Solution Architects spend excessive time manually reading BRD/PRD documents line-by-line, drawing diagrams from scratch, and calculating complex cloud estimates.
+- **Core Capabilities:** Parses natural language to extract a Requirements Catalogue in minutes, drafts enterprise-grade cloud architecture options, automatically generates editable Drawio / AWS Diagrams, and estimates cloud costs for region `ap-southeast-1`.
+- **Impact:** Automates initial architecture draft generation, produces IaC code automatically, and provides instant AWS cost estimations alongside architecture diagrams.
 
-#### 📌 Group 3: Signal Scout – Early Corporate Strategic Change Detection
-*Presentation File:* `SignalScout.pptx`
+#### 3. Signal Scout – Early Corporate Strategic Change Detection
+Dream AI Team presented an AI-powered strategic corporate signal analysis solution:
+- **Problem & Motivation:** Helps corporate strategy and risk management teams detect early restructuring signals from scattered data sources.
+- **Business Model & Capabilities:** Self-service Executive Dashboard collecting and validating corporate change evidence, analyzing financial/operational metrics, and issuing automated risk alerts.
+- **Cloud Architecture & Cost Analysis:** Integrated AWS Bedrock, AgentCore Short-Term Memory, LangFuse, TinyFish, Apify, Lambda, API Gateway, DynamoDB... Detailed AWS infrastructure cost scenarios: Min ($17/month), Mid ($35/month), Max ($130/month); total operational cost from $81 – $359/month.
 
-- **Project Title:** **Signal Scout** – Early Strategic Change & Restructuring Signal Detector
-- **Team (Dream AI Team):** Le Tan Luc, Do Hoang Hieu, Trieu Quoc Hao, Nguyen Van Duy Khiem, Nguyen Cong Minh, Nguyen Tran Minh Quan.
-- **Problem & Motivation:** 
-  - Helps corporate strategy, risk management, and enterprise account teams detect early restructuring signals and strategic shifts from scattered data sources.
-- **Business Model & Capabilities (Value Creation Canvas):**
-  - Self-service Executive Dashboard collecting and validating corporate change evidence.
-  - Analyzes financial and operational metrics, builds report scenarios, and generates risk alerts with verifiable evidence.
-- **Cloud Architecture & Cost Analysis:**
-  - Integrated Stack: AWS Bedrock, AgentCore Short-Term Memory, LangFuse, TinyFish, Apify, Lambda, API Gateway, DynamoDB, Amplify Hosting, S3 Intelligent-Tiering, WAF, Secrets Manager, Cognito.
-  - Detailed AWS cost breakdown across 3 scenarios:
-    - **Min:** ~$17 / month (Bedrock $2.54, Memory $1.50, WAF $8.00...).
-    - **Mid:** ~$35 / month.
-    - **Max:** ~$130 / month.
-    - **Total Operational Cost (incl. Apify, TinyFish, Langfuse):** $81 – $359 / month.
+#### 4. OneTeam & KFC Bot Agent – Multi-Channel AI Conversational Ordering
+Team OneTeam shared a frictionless multi-channel conversational ordering solution:
+- **Problem & Motivation:** Conversational ordering often breaks user flow by forcing app downloads or context switches (inspired by McDonald's AI drive-thru trial cancellation due to logic errors).
+- **Solution & Tool Call Architecture:** Multi-channel ordering (Zalo OA, Messenger, WhatsApp) directly inside chat windows via a 5-step Tool Call Execution (Understand Intent -> Plan Steps -> Search Data -> Update Cart & Apply Vouchers -> Confirm against Real Cart).
+- **Key Metrics:** $0.006 / order cost (calculated for 500 orders/day), $88 / month total infrastructure cost (Bedrock accounts for 75%), 3–5s response latency, and 60% reduction in infrastructure code thanks to AWS AgentCore.
 
 ---
 
-#### 📌 Group 4: OneTeam – KFC Bot Agent / Colonel AI (Multi-Channel AI Agent)
-*Presentation File:* `OneTeam_CommunityDay.pptx`
+### Key Lessons Learned
 
-- **Project Title:** **KFC Bot Agent / Colonel AI** – Multi-Channel AI Conversational Ordering Agent
-- **Team (Team OneTeam):** Anh Duy, Tran Dong, Doan Trung, Minh Viet, Anshul Roy.
-- **Problem & Motivation:** 
-  - Conversational ordering is difficult (Inspired by McDonald's AI drive-thru trial cancellation across 100 US locations due to logic failures).
-  - Users chatting on Zalo/Messenger/WhatsApp are forced to download new apps or switch flows, creating friction and causing lost orders.
-- **Solution & Tool Call Execution Architecture:**
-  - Multi-channel conversational ordering inside Zalo OA and Messenger without app switching or new account registration.
-  - 5-step Tool Call Execution: Understand Intent -> Plan Steps -> Search Data -> Update Cart & Apply Vouchers -> Confirm against Real Cart.
-  - Design Once, Deploy Everywhere via modular Adapters & Connectors.
-- **Key Impact Numbers:**
-  - **$0.006 / order:** Calculated via AWS Pricing Calculator (500 orders/day).
-  - **$88 / month:** Total infrastructure cost (AWS Bedrock accounts for 75%).
-  - **3–5s:** End-to-end latency (Message sent → reply received).
-  - **-60% infra code:** Reduced infrastructure codebase by leveraging AWS AgentCore.
+- **Execution & Preparedness (Showing Up):** Stepping up to participate in major hackathons is the most important step for personal and technical growth.
+- **Finished Prototype Over Scope (Execution Over Scope):** A working core prototype delivers far more value than a grand unfinished concept.
+- **From Chatbot to AI Agent:** A chatbot merely replies with text (*A Chatbot Replies*), whereas a true AI Agent executes tools, queries live databases, and performs real actions (*An Agent Acts*).
+- **Cost-Aware Infrastructure Design:** Building AI solutions must be paired with real-world financial metrics ($0.006/order or Min/Mid/Max infrastructure budgeting).
 
 ---
 
-### LESSONS LEARNED ACROSS ALL GROUPS
+### Results & Key Achievements
 
-1. **Showing Up:** Stepping up to participate in major hackathons is the most important step for personal and technical growth.
-2. **Execution Over Scope:** A working core prototype delivers far more value than a grand unfinished concept.
-3. **From Chatbot to Agent (A Chatbot Replies, An Agent Acts):** A chatbot merely replies with text, whereas a true AI Agent executes tools, queries live databases, and performs real actions.
-4. **Cost-Aware Architecture:** Building AI solutions must be paired with real-world financial metrics ($0.006/order or Min/Mid/Max infrastructure budgeting).
+#### Technical Skills & Industry Knowledge
+- **Advanced Agentic AI & GenAI Capabilities:** Mastered integration of Agentic AI services and LLMs on AWS (Amazon Bedrock, SageMaker, AgentCore).
+- **Cloud Architecture Design & Cost Optimization:** Gained hands-on experience designing scalable cloud architectures with real-world cost controls.
+- **Real-Time Data & Computer Vision Processing:** Learned to combine computer vision models (YOLO, ByteTrack) with cloud inference pipelines.
+
+#### Soft Skills & Personal Growth
+- **High-Pressure Teamwork:** Collaborated effectively and maintained high team energy throughout the intensive Hackathon week.
+- **Pitching & Project Management:** Practiced agile role delegation, 3-minute pitch preparation, and technical solution presentation in front of AWS judges.
+- **Networking & Connections:** Built valuable relationships with AWS mentors, industry experts, and talented peers.
+
+#### Team & Project Contributions
+- Applied practical AI Agent design and cloud cost optimization perspectives into current team internship projects.
+- Shared rapid prototyping lessons and open team collaboration practices with fellow interns.
 
 ---
 
-### EVENT & PRESENTATION GALLERY
+### Event Gallery
 
 ![AWS Group Photo at Amazon Office](/images/4-Event/event3_amazon_photo.png?width=45pc)
-*Figure 1: Group photo with participants and AWS experts at the Amazon Web Services (AWS) office*
+*Figure 1: Group photo with fellow participants and experts at the Amazon Web Services (AWS) office*
 
 ![S.H.E.P.H.E.R.D System Architecture](/images/4-Event/event3_architecture.png?width=45pc)
 *Figure 2: [Group 1 - Hackathon Journey] S.H.E.P.H.E.R.D Agentic AI architecture (YOLO + AWS Bedrock)*
@@ -130,4 +105,4 @@ pre: " <b> 4.3. </b> "
 ![KFC Bot Agent Multi-Channel Architecture](/images/4-Event/event3_kfc_bot_agent.png?width=45pc)
 *Figure 5: [Group 4 - OneTeam] Multi-channel KFC Bot Agent ordering model and $0.006/order infrastructure metric*
 
-> The AWS Agentic AI Build Week offered comprehensive insights across 4 outstanding project groups. The event provided hands-on experience mastering AWS Agentic AI services while building cost-optimized, production-ready system architectures.
+> The AWS Agentic AI Build Week was not only an intellectually challenging hackathon, but also a launching pad that elevated my technology mindset, enabled me to master cutting-edge Agentic AI solutions on AWS, and prepared me for professional software engineering.
