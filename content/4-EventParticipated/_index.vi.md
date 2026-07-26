@@ -10,7 +10,7 @@ pre: " <b> 4. </b> "
 
 
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.
 
 ### [Event 1](4.1-Event1/)
 &emsp;**Tên sự kiện:** Buổi Chia sẻ Công nghệ & Kỹ năng mềm
@@ -31,4 +31,16 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 &emsp;**Địa điểm:** Tòa nhà Bitexco Financial Tower, số 02 đường Hải Triều, Quận 1, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
+
+
+
+### [Event 3](4.3-Event3/)
+&emsp;**Tên sự kiện:** AWS Agentic AI Build Week (AABW) Hackathon & Tech Sharing
+
+&emsp;**Thời gian:** 08/07/2026 - 12/07/2026
+
+&emsp;**Địa điểm:** Văn phòng AWS Việt Nam & Trực tuyến
+
+&emsp;**Vai trò trong sự kiện:** Thí sinh / Người tham dự
+
 
