@@ -90,19 +90,7 @@ Nhóm OneTeam chia sẻ giải pháp đặt hàng qua hội thoại không ma s�
 
 ### Một số hình ảnh khi tham gia sự kiện
 
-![AWS Group Photo at Amazon Office](/images/4-Event/event3_amazon_photo.png?width=45pc)
-*Hình 1: Chụp ảnh tập thể cùng các bạn sinh viên và chuyên gia tại văn phòng Amazon Web Services (AWS)*
-
-![S.H.E.P.H.E.R.D System Architecture](/images/4-Event/event3_architecture.png?width=45pc)
-*Hình 2: [Nhóm 1 - Hackathon Journey] Sơ đồ kiến trúc hệ thống Agentic AI S.H.E.P.H.E.R.D (YOLO + AWS Bedrock)*
-
-![Solution Architect AI Native App Workflow](/images/4-Event/event3_sa_native_app.png?width=45pc)
-*Hình 3: [Nhóm 2 - SA Professional Native App] Quy trình trích xuất yêu cầu và tự động thiết kế kiến trúc Cloud*
-
-![Signal Scout Architecture Canvas](/images/4-Event/event3_signal_scout.png?width=45pc)
-*Hình 4: [Nhóm 3 - Signal Scout] Sơ đồ phân tích tín hiệu chiến lược và kịch bản chi phí hạ tầng AWS*
-
-![KFC Bot Agent Multi-Channel Architecture](/images/4-Event/event3_kfc_bot_agent.png?width=45pc)
-*Hình 5: [Nhóm 4 - OneTeam] Mô hình đặt hàng đa kênh KFC Bot Agent (Zalo/Messenger) và chỉ số hạ tầng $0.006/đơn*
+![AWS Group Photo Check-in](/images/4-Event/event3_amazon_photo.png?width=45pc)
+*Hình 1: Ảnh chụp tập thể check-in tham dự sự kiện tại văn phòng Amazon Web Services (AWS)*
 
 > Tuần lễ AWS Agentic AI Build Week không chỉ là một kỳ Hackathon thử thách trí tuệ và thể lực, mà còn là bệ phóng giúp em nâng tầm tư duy công nghệ, làm chủ các giải pháp Agentic AI hiện đại nhất trên AWS và tự tin bước vào môi trường phát triển phần mềm chuyên nghiệp.

@@ -90,19 +90,7 @@ Team OneTeam shared a frictionless multi-channel conversational ordering solutio
 
 ### Event Gallery
 
-![AWS Group Photo at Amazon Office](/images/4-Event/event3_amazon_photo.png?width=45pc)
-*Figure 1: Group photo with fellow participants and experts at the Amazon Web Services (AWS) office*
-
-![S.H.E.P.H.E.R.D System Architecture](/images/4-Event/event3_architecture.png?width=45pc)
-*Figure 2: [Group 1 - Hackathon Journey] S.H.E.P.H.E.R.D Agentic AI architecture (YOLO + AWS Bedrock)*
-
-![Solution Architect AI Native App Workflow](/images/4-Event/event3_sa_native_app.png?width=45pc)
-*Figure 3: [Group 2 - SA Professional Native App] Automated requirement extraction and cloud architecture generator*
-
-![Signal Scout Architecture Canvas](/images/4-Event/event3_signal_scout.png?width=45pc)
-*Figure 4: [Group 3 - Signal Scout] Strategic signal analysis architecture and AWS cost breakdown*
-
-![KFC Bot Agent Multi-Channel Architecture](/images/4-Event/event3_kfc_bot_agent.png?width=45pc)
-*Figure 5: [Group 4 - OneTeam] Multi-channel KFC Bot Agent ordering model and $0.006/order infrastructure metric*
+![AWS Group Photo Check-in](/images/4-Event/event3_amazon_photo.png?width=45pc)
+*Figure 1: Group check-in photo at the Amazon Web Services (AWS) office*
 
 > The AWS Agentic AI Build Week was not only an intellectually challenging hackathon, but also a launching pad that elevated my technology mindset, enabled me to master cutting-edge Agentic AI solutions on AWS, and prepared me for professional software engineering.
