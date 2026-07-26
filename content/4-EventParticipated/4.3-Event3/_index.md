@@ -21,13 +21,13 @@ pre: " <b> 4.3. </b> "
 - **Co-organizing Partners:** Amazon Web Services (AWS) Vietnam, First Cloud Journey (FCJ/FCAJ), AWS User Group Vietnam, and All Builders Welcome (AABW).
 - **Participants:** Cloud engineers, AI developers, and students forming teams for intense building during the *Agentic AI Build Week*.
 - **Speakers & Presentation Topics:**
-  - **Topic 1 (PP: `Hackathon_Journey_3KA.pptx`):** S.H.E.P.H.E.R.D – Smart Human-flow Evaluation, Prediction, Hazard Detection, Response, and Dispatch
+  - **Topic 1:** S.H.E.P.H.E.R.D – Smart Human-flow Evaluation, Prediction, Hazard Detection, Response, and Dispatch
     - *Speakers:* Team 3KA
-  - **Topic 2 (PP: `SA_Professional_Native_App.pptx`):** Solution Architect Professional AI Native App – Automated Cloud Architecture Design
+  - **Topic 2:** Solution Architect Professional AI Native App – Automated Cloud Architecture Design
     - *Speakers:* Team Plan V (Pham Tien Thuan, Phat Huynh, Hoang Long, Le Minh Nghia, Tran Dai Vi, Nguyen An)
-  - **Topic 3 (PP: `SignalScout.pptx`):** Signal Scout – Early Corporate Strategic Change & Restructuring Signal Detection
+  - **Topic 3:** Signal Scout – Early Corporate Strategic Change & Restructuring Signal Detection
     - *Speakers:* Dream AI Team (Le Tan Luc, Do Hoang Hieu, Trieu Quoc Hao, Nguyen Van Duy Khiem, Nguyen Cong Minh, Nguyen Tran Minh Quan)
-  - **Topic 4 (PP: `OneTeam_CommunityDay.pptx`):** OneTeam & KFC Bot Agent – Multi-Channel AI Conversational Ordering Experience
+  - **Topic 4:** OneTeam & KFC Bot Agent – Multi-Channel AI Conversational Ordering Experience
     - *Speakers:* Team OneTeam (Anh Duy, Tran Dong, Doan Trung, Minh Viet, Anshul Roy)
 
 ---

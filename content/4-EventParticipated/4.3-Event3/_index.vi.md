@@ -21,13 +21,13 @@ pre: " <b> 4.3. </b> "
 - **Đối tác phối hợp tổ chức:** Amazon Web Services (AWS) Việt Nam, First Cloud Journey (FCJ/FCAJ), AWS User Group Việt Nam và All Builders Welcome (AABW).
 - **Đối tượng tham gia:** Các sinh viên, kỹ sư điện toán đám mây và chuyên gia AI lập đội và thi đấu liên tục trong tuần lễ *Agentic AI Build Week*.
 - **Các nhóm diễn giả & Bài thuyết trình:**
-  - **Chủ đề 1 (PP: `Hackathon_Journey_3KA.pptx`):** S.H.E.P.H.E.R.D – Smart Human-flow Evaluation, Prediction, Hazard Detection, Response, and Dispatch
+  - **Chủ đề 1:** S.H.E.P.H.E.R.D – Smart Human-flow Evaluation, Prediction, Hazard Detection, Response, and Dispatch
     - *Diễn giả:* Đội 3KA
-  - **Chủ đề 2 (PP: `SA_Professional_Native_App.pptx`):** Solution Architect Professional AI Native App – Tự động hóa thiết kế kiến trúc Cloud
+  - **Chủ đề 2:** Solution Architect Professional AI Native App – Tự động hóa thiết kế kiến trúc Cloud
     - *Diễn giả:* Nhóm Plan V (Phạm Tiến Thuận, Phát Huỳnh, Hoàng Long, Lê Minh Nghĩa, Trần Đại Vĩ, Nguyễn An)
-  - **Chủ đề 3 (PP: `SignalScout.pptx`):** Signal Scout – Phát hiện sớm các tín hiệu tái cấu trúc & thay đổi chiến lược doanh nghiệp
+  - **Chủ đề 3:** Signal Scout – Phát hiện sớm các tín hiệu tái cấu trúc & thay đổi chiến lược doanh nghiệp
     - *Diễn giả:* Nhóm Dream AI Team (Lê Tấn Lực, Đỗ Hoàng Hiếu, Triệu Quốc Hào, Nguyễn Văn Duy Khiêm, Nguyễn Công Minh, Nguyễn Trần Minh Quân)
-  - **Chủ đề 4 (PP: `OneTeam_CommunityDay.pptx`):** OneTeam & KFC Bot Agent – Trải nghiệm đặt hàng đa kênh với AI Agent
+  - **Chủ đề 4:** OneTeam & KFC Bot Agent – Trải nghiệm đặt hàng đa kênh với AI Agent
     - *Diễn giả:* Nhóm OneTeam (Anh Duy, Trần Đông, Đoàn Trung, Minh Việt, Anshul Roy)
 
 ---
